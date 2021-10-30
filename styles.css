@@ -1,3 +1,53 @@
+@font-face {
+    font-family: 'pw_centra_no2bold';
+    src: url('fonts/pwcentrano2-bold-webfont.woff2') format('woff2'),
+         url('fonts/pwcentrano2-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pw_centra_no2bold_italic';
+    src: url('fonts/pwcentrano2-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/pwcentrano2-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pw_centra_no2book';
+    src: url('fonts/pwcentrano2-book-webfont.woff2') format('woff2'),
+         url('fonts/pwcentrano2-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pw_centra_no2italic';
+    src: url('fonts/pwcentrano2-bookitalic-webfont.woff2') format('woff2'),
+         url('fonts/pwcentrano2-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pw_serifbold';
+    src: url('fonts/pwserif-bold-webfont.woff2') format('woff2'),
+         url('fonts/pwserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *, *:after, *:before {
     margin: 0;
     padding: 0;
@@ -15,3 +65,6 @@ footer, header, hgroup, menu, nav, section {
 
 
 
+body {
+    font-family: 'pw_centra_no2book';
+}
