@@ -138,6 +138,7 @@ h1, h2, h3, h4 {
 
 .team-member p {
     padding: 1em 2em 0 2em;
+    line-height: 1.3em;
 }
 
 .team-member img {
