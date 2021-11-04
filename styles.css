@@ -76,6 +76,13 @@ body {
     width: 100%;
 }
 
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+}
+
 .nav-menu {
     position: fixed;
     top: 5%;
@@ -87,6 +94,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 3;
   
 }
 
