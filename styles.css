@@ -74,6 +74,7 @@ html {
 
 body {
     width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -171,7 +172,7 @@ h1, h2, h3, h4 {
 .content-holder {
     width: 100%;
     margin: 0 auto;
-    
+    overflow-x: hidden;
 }
 
 .team-heading {
@@ -270,6 +271,10 @@ h1, h2, h3, h4 {
   .slides input{
     display: none;
   }
+
+  .slides-five input{
+    display: none;
+  }
   
   .slide{
     width: 100vw;
@@ -294,7 +299,7 @@ h1, h2, h3, h4 {
   }
   
   .manual-btn{
-    border: 2px solid #285c4d;
+    border: 2px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -306,7 +311,7 @@ h1, h2, h3, h4 {
   }
   
   .manual-btn:hover{
-    background: #285C4d;
+    background: #fff;
   }
   
   #tony1:checked ~ .tonyfirst{
@@ -408,4 +413,50 @@ h1, h2, h3, h4 {
   #doug3:checked ~ .dougfirst{
     margin-left: -66.66666%;
   }
+
+  .slides-five{
+    width: 500vw;
+    display: flex;
+  }
       
+      
+#lol1:checked ~ .lolfirst{
+    margin-left: 0;
+  }
+  
+  #lol2:checked ~ .lolfirst{
+    margin-left: -20%;
+  }
+  
+  #lol3:checked ~ .lolfirst{
+    margin-left: -40%;
+  }
+
+  #lol4:checked ~ .lolfirst{
+    margin-left: -60%;
+  }
+
+  #lol5:checked ~ .lolfirst{
+    margin-left: -80%;
+  }
+
+        
+#platte1:checked ~ .plattefirst{
+    margin-left: 0;
+  }
+  
+  #platte2:checked ~ .plattefirst{
+    margin-left: -20%;
+  }
+  
+  #platte3:checked ~ .plattefirst{
+    margin-left: -40%;
+  }
+
+  #platte4:checked ~ .plattefirst{
+    margin-left: -60%;
+  }
+
+  #platte5:checked ~ .plattefirst{
+    margin-left: -80%;
+  }
