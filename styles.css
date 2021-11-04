@@ -315,7 +315,7 @@ h1, h2, h3, h4 {
   }
   
   #tony {
-    background-image: url(images/Main-Team.jpg);
+    background-image: url(images/Main-Team.png);
     background-position-x: left;
     background-position-y: top;
     background-size: 100%;
@@ -323,7 +323,7 @@ h1, h2, h3, h4 {
 }
 
 #eric {
-    background-image: url(images/Main-Team2.jpg);
+    background-image: url(images/Main-Team2.png);
     background-position-x: left;
     background-position-y: top;
     background-size: 100%;
@@ -343,7 +343,7 @@ h1, h2, h3, h4 {
   }
         
   #greg {
-    background-image: url(images/Main-Team3.jpg);
+    background-image: url(images/Main-Team3.png);
     background-position-x: left;
     background-position-y: top;
     background-size: 100%;
@@ -363,7 +363,7 @@ h1, h2, h3, h4 {
   }
         
   #anne {
-    background-image: url(images/Main-Team4.jpg);
+    background-image: url(images/Main-Team4.png);
     background-position-x: left;
     background-position-y: top;
     background-size: 100%;
@@ -383,7 +383,7 @@ h1, h2, h3, h4 {
   }
 
   #doug {
-    background-image: url(images/Main-Team5.jpg);
+    background-image: url(images/Main-Team5.png);
     background-position-x: left;
     background-position-y: top;
     background-size: 100%;
