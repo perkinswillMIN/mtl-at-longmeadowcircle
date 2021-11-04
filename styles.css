@@ -118,6 +118,10 @@ nav {
 
 .site-nav {
     height: 100vh;
+    width: 100vw;;
+    position: fixed;
+    top: 0;
+    left: 0;
     text-align: center;
     font-size: 4em;
     background-color: rgba(40, 92, 77, 0.808);
@@ -160,6 +164,7 @@ h1, h2, h3, h4 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(5px 5px 4px #000);
 
 }
 
@@ -180,19 +185,21 @@ h1, h2, h3, h4 {
 
 .quote {
     text-align: center;
-    font-size: 2.5em;
-    padding: .5em 2em .5em 2em;
+    font-size: 3em;
+    padding: 1em 4em .5em 4em;
     font-family: 'pw_serifbold';
+    color: #285c4d;
 }
 
 .quote-attribute{
     text-align: right;
-    padding: 0 4em 1em 2em;
+    padding: 0 16em 3em 2em;
+    color: #285c4d;
 }
 
 .process-p {
-    padding: 1em 2em 1em 2em;
-    line-height: 1.2em;
+    padding: 0 8em 2em 8em;
+    line-height: 1.42em;
     font-size: 1.3em;
 }
 
