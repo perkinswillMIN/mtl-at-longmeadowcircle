@@ -1132,7 +1132,7 @@ h1, h2, h3, h4 {
 
 footer {
     width: 100vw;
-    padding: 1em 3em 1em 5em;
+    padding: 1vw 4vw 1vw 4vw;
     background-color: rgba(40, 92, 77, 0.808);
     color: #fff;
     line-height: 1.2em;
@@ -1145,7 +1145,7 @@ footer {
 }
 
 footer h4{
-    font-size: .8em;
+    font-size: 1vw;
 }
 
 footer a {
@@ -1156,6 +1156,10 @@ footer a {
 
 footer a:hover {
     color: #bde9c9;
+}
+
+footer h3 {
+    font-size: 1.2vw;
 }
 
 .links {
@@ -1564,17 +1568,7 @@ footer a:hover {
     }
 
 
-    footer h3 {
-        font-size: .5em;
-    }
 
-    footer h4 {
-        font-size: .3em;
-    }
-
-    footer {
-        padding: 1em 3em 1em 2em;
-    }
 
     .quote {
         text-align: center;
@@ -1590,5 +1584,37 @@ footer a:hover {
     .site-nav {
        
         font-size: 8vw;
+    }
+
+    footer {
+        width: 100vw;
+        padding: 1vw 4vw 1vw 4vw;
+        background-color: rgba(40, 92, 77, 0.808);
+        color: #fff;
+        line-height: 1.2em;
+        margin-top: 1em;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer h4{
+        font-size: 2vw;
+    }
+    
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    
+    footer a:hover {
+        color: #bde9c9;
+    }
+    
+    footer h3 {
+        font-size: 3vw;
     }
 }
