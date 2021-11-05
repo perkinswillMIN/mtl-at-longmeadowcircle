@@ -167,7 +167,16 @@ h1, h2, h3, h4 {
     top: 50%;
     transform: translate(-50%, -50%);
     filter: drop-shadow(5px 5px 4px #000);
-
+    -webkit-animation: fade;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: 1;
+    }
+    
+    @-webkit-keyframes fade {
+        0% { opacity: 0; }
+        50% {opacity:0;}
+        100% { opacity: 1; }
+    }
 }
 
 .content-holder {
