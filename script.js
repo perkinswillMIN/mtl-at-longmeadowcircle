@@ -33,8 +33,8 @@ function initComparisons() {
     /* Insert slider */
     img.parentElement.insertBefore(slider, img);
     /* Position the slider in the middle: */
-    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "em";
+    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "em";
     /* Execute a function when the mouse button is pressed: */
     slider.addEventListener("mousedown", slideReady);
     /* And another function when the mouse button is released: */
