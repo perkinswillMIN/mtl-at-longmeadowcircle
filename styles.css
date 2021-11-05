@@ -68,7 +68,7 @@ footer, header, hgroup, menu, nav, section {
 
 html {
     font-family: 'pw_centra_no2book';
-    background-color: rgba(255, 255, 255, .6);
+    background-color: #bde9c9;
     margin: 0 auto;
 }
 
@@ -459,4 +459,17 @@ h1, h2, h3, h4 {
 
   #platte5:checked ~ .plattefirst{
     margin-left: -80%;
+  }
+
+  .heading {
+      width: 100%;
+      background-color: #bde9c9;
+      text-align: center;
+      font-size: 3em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
+
+  .heading h1 {
+    font-family: 'pw_serifbold';
   }
