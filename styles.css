@@ -1007,6 +1007,70 @@ h1, h2, h3, h4 {
 
 
 
+
+#mod {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+#mod1:checked ~ .modfirst{
+  margin-left: 0;
+}
+
+#mod2:checked ~ .modfirst{
+  margin-left: -33.3333%;
+}
+
+#mod3:checked ~ .modfirst{
+  margin-left: -66.6666%;
+}
+
+
+#mod-slides{
+  width: 240vw;
+  display: flex;
+}
+
+
+
+.mod-slide{
+  width: 80vw;
+  transition: 2s;
+  font-size: 0;
+}
+
+.mod-slide img{
+  height: auto;
+  width: 80vw;
+  font-size: 0;
+}
+
+.mod-navigation-manual{
+  position: absolute;
+  width: 80vw;
+  margin-top: -6vw;
+  display: flex;
+  justify-content: center;
+}
+
+
+#mod {
+  width: 80vw;
+  margin: 0 auto;
+  display: block;
+}
+
+.modslide-holder {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2.5em;
+}
+
+
 .img-comp-container {
     position: relative;
     height: 40vw;
