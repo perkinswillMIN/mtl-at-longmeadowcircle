@@ -1053,29 +1053,7 @@ h1, h2, h3, h4 {
   }
 
 
-  @media only screen and (max-width: 900px) { 
 
-    .img-comp-container {
-        position: relative;
-        height: 35vh;
-        margin: 1em auto;
-        top: 0;
-
-      }
-      
-      
-      .img-comp-img img {
-        display: block;
-        height: 35vh;
-      }
-
-      .sustainability-holder {
-        display: block;
-        width: 90vw;
-        margin: 0 auto;
-    }
-
-}
 
 
 #am {
@@ -1192,17 +1170,16 @@ footer a:hover {
 
 
 .journey {
-    width: 80vw;
-    height: 100vh;
-    display: none;
+    width: 80em;
+    height: 100em;
     margin: 0 auto;
 }
 
 .journeybg {
     position: absolute;
     float: left;
-    width: 80vw;
-    height: 100vh;
+    width: 80em;
+    height: 100em;
     background-image: url(images/journeybg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -1211,24 +1188,18 @@ footer a:hover {
 
 .journeydisplay {
     position: relative;
-    width: 80vw;
-    height: 100vh;
+    width: 80em;
+    height: 100em;
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 3;
     top: -16.5em;
 }
 
+
 .journey1 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    z-index: 4;
-    top: 57vh;
-    left: 23vw;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
+    top: 24.5em;
+    left: 23em;
 }
 
 .journey1:after {
@@ -1240,15 +1211,9 @@ footer a:hover {
 }
 
 .journey2 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-    z-index: 4;
-    top: 49%;
-    left: 44%;
+
+    top: 20em;
+    left: 36em;
 }
 
 .journey2:after {
@@ -1260,15 +1225,8 @@ footer a:hover {
 }
 
 .journey3 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-    z-index: 4;
-    top: 42%;
-    left: 48%;
+    top: 16em;
+    left: 38em;
 }
 
 .journey3:after {
@@ -1280,15 +1238,8 @@ footer a:hover {
 }
 
 .journey4 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-        z-index: 4;
-    top: 28vh;
-    left: 26vw;
+    top: 12em;
+    left: 26em;
 }
 
 .journey4:after {
@@ -1300,15 +1251,8 @@ footer a:hover {
 }
 
 .journey5 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-    z-index: 4;
-    top: 45.5vh;
-    left: 15vw;
+    top: 20em;
+    left: 15em;
 }
 
 .journey5:after {
@@ -1320,15 +1264,8 @@ footer a:hover {
 }
 
 .journey6 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-    z-index: 4;
-    top: 50vh;
-    left: 5vw;
+    top: 23em;
+    left: 5em;
 }
 
 .journey6:after {
@@ -1340,15 +1277,9 @@ footer a:hover {
 }
 
 .journey7 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-    z-index: 4;
-    top: 14vh;
-    left: 23vw;
+
+    top: 6em;
+    left: 23em;
 }
 
 .journey7:after {
@@ -1360,15 +1291,9 @@ footer a:hover {
 }
 
 .journey8 {
-    position: relative;
-    width: 2em;
-    height: 2em;
-    background-color: #ffa900;
-    border-radius: 2em;
-    background-repeat: no-repeat;
-    z-index: 4;
-    top: 16vh;
-    left: 52%;
+
+    top: 5em;
+    left: 41em;
 }
 
 .journey8:after {
@@ -1379,6 +1304,245 @@ footer a:hover {
     left: 39%;
 }
 
+.journey9 {
+   
+    top: 10em;
+    left: 62em;
+}
+
+.journey9:after {
+    content: '9';
+    color: #fff;
+    position: relative;
+    top: 35%;
+    left: 39%;
+}
+
+.dot {
+    position: relative;
+    width: 2em;
+    height: 2em;
+    background-color: #ffa900;
+    border-radius: 2em;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
 .journey1:hover ~.journeydisplay {
     background-image: url(images/overlay1.png);
+}
+
+.journey2:hover ~.journeydisplay {
+    background-image: url(images/overlay2.png);
+}
+
+.journey3:hover ~.journeydisplay {
+    background-image: url(images/overly3.png);
+}
+
+.journey4:hover ~.journeydisplay {
+    background-image: url(images/overlay4.png);
+}
+
+.journey5:hover ~.journeydisplay {
+    background-image: url(images/overlay5.png);
+}
+
+.journey6:hover ~.journeydisplay {
+    background-image: url(images/overlay6.png);
+}
+
+.journey7:hover ~.journeydisplay {
+    background-image: url(images/overlay7.png);
+}
+
+.journey8:hover ~.journeydisplay {
+    background-image: url(images/overlay8.png);
+}
+
+.journey9:hover ~.journeydisplay {
+    background-image: url(images/overlay9.png);
+}
+
+
+
+@media only screen and (max-width: 900px) { 
+
+    .img-comp-container {
+        position: relative;
+        height: 35vh;
+        margin: 1em auto;
+        top: 0;
+
+      }
+      
+      
+      .img-comp-img img {
+        display: block;
+        height: 35vh;
+      }
+
+      .sustainability-holder {
+        display: block;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .journey {
+        width: 50em;
+        height: 70em;
+        margin: 0 auto;
+    }
+    
+    .journeybg {
+        position: absolute;
+        float: left;
+        width: 50em;
+        height: 70em;
+        background-image: url(images/journeybg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .journeydisplay {
+        position: relative;
+        width: 50em;
+        height: 70em;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: 3;
+        top: -16.5em;
+    }
+
+    .journey1 {
+        top: 15em;
+        left: 14em;
+    }
+    
+    .journey1:after {
+        content: '1';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 44%;
+    }
+    
+    .journey2 {
+    
+        top: 12em;
+        left: 22em;
+    }
+    
+    .journey2:after {
+        content: '2';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+    
+    .journey3 {
+        top: 8em;
+        left: 25em;
+    }
+    
+    .journey3:after {
+        content: '3';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+    
+    .journey4 {
+        top: 5em;
+        left: 17em;
+    }
+    
+    .journey4:after {
+        content: '4';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 37%;
+    }
+    
+    .journey5 {
+        top: 9em;
+        left: 8em;
+    }
+    
+    .journey5:after {
+        content: '5';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+    
+    .journey6 {
+        top: 9em;
+        left: 3em;
+    }
+    
+    .journey6:after {
+        content: '6';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+    
+    .journey7 {
+    
+        top: -1em;
+        left: 14em;
+    }
+    
+    .journey7:after {
+        content: '7';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+    
+    .journey8 {
+        top: -4em;
+        left: 28em;
+    }
+    
+    .journey8:after {
+        content: '8';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+    
+    .journey9 {
+       
+        top: -1em;
+        left: 40em;
+    }
+    
+    .journey9:after {
+        content: '9';
+        color: #fff;
+        position: relative;
+        top: 35%;
+        left: 39%;
+    }
+
+    .journeydisplay {
+        position: relative;
+        width: 50em;
+        height: 70em;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: 3;
+        top: -18em;
+    }
+
 }
