@@ -1075,7 +1075,67 @@ h1, h2, h3, h4 {
         margin: 0 auto;
     }
 
+}
 
-  
 
+#am {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+#am1:checked ~ .amfirst{
+  margin-left: 0;
+}
+
+#am2:checked ~ .amfirst{
+  margin-left: -33.3333%;
+}
+
+#am3:checked ~ .amfirst{
+  margin-left: -66.6666%;
+}
+
+
+#am-slides{
+  width: 240vw;
+  display: flex;
+}
+
+
+
+.am-slide{
+  width: 80vw;
+  transition: 2s;
+  font-size: 0;
+}
+
+.am-slide img{
+  height: auto;
+  width: 80vw;
+  font-size: 0;
+}
+
+.am-navigation-manual{
+  position: absolute;
+  width: 80vw;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#am {
+  width: 80vw;
+  margin: 0 auto;
+  display: block;
+}
+
+.amslide-holder {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2.5em;
 }
