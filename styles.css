@@ -683,5 +683,313 @@ h1, h2, h3, h4 {
       text-align: center;
       list-style-position: inside;
   }
+
+  .subhead h2 {
+    padding-bottom: 1em;
+    font-size: 1.25em;
+      
+  }
+  
+  .insslide-holder {
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+      margin: 0 auto;
+      height: auto;
+  }
+
+
+#ins1:checked ~ .insfirst{
+    margin-left: 0;
+  }
+  
+  #ins2:checked ~ .insfirst{
+    margin-left: -25%;
+  }
+  
+  #ins3:checked ~ .insfirst{
+    margin-left: -50%;
+  }
+  
+  #ins4:checked ~ .insfirst{
+      margin-left: -75%;
+    }
     
   
+  #ins-slides{
+    width: 200vw;
+    display: flex;
+  }
+  
+  #ins {
+      width: 50vw;
+      margin: 0 auto;
+      display: block;
+      overflow: hidden;
+  }
+  
+  .ins-slide{
+    width: 50vw;
+    transition: 2s;
+    font-size: 0;
+  }
+  
+  .ins-slide img{
+    height: auto;
+    width: 50vw;
+    font-size: 0;
+  }
+  
+  .ins-navigation-manual{
+    position: absolute;
+    width: 50vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+  .conslide-holder {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2.5em;
+}
+
+
+#con1:checked ~ .confirst{
+  margin-left: 0;
+}
+
+
+#con2:checked ~ .confirst{
+    margin-left: -50%;
+  }
+  
+
+  
+  #con-slides{
+    width: 140vw;
+    display: flex;
+  }
+  
+  #con {
+      width: 70vw;
+      margin: 0 auto;
+      display: block;
+      overflow: hidden;
+  }
+  
+  .con-slide{
+    width: 70vw;
+    transition: 2s;
+    font-size: 0;
+  }
+  
+  .con-slide img{
+    height: auto;
+    width: 70vw;
+    font-size: 0;
+  }
+  
+  .con-navigation-manual{
+    position: absolute;
+    width: 70vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+
+
+  .fpslide-holder {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2.5em;
+}
+
+
+#fp1:checked ~ .fpfirst{
+  margin-left: 0;
+}
+
+
+#fp2:checked ~ .fpfirst{
+    margin-left: -50%;
+  }
+  
+
+  
+  #fp-slides{
+    width: 140vw;
+    display: flex;
+  }
+  
+  #fp {
+      width: 70vw;
+      margin: 0 auto;
+      display: block;
+      overflow: hidden;
+  }
+  
+  .fp-slide{
+    width: 70vw;
+    transition: 2s;
+    font-size: 0;
+  }
+  
+  .fp-slide img{
+    height: auto;
+    width: 70vw;
+    font-size: 0;
+  }
+  
+  .fp-navigation-manual{
+    position: absolute;
+    width: 70vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  #ns1:checked ~ .nsfirst{
+    margin-left: 0;
+  }
+  
+  #ns2:checked ~ .nsfirst{
+    margin-left: -16.666%;
+  }
+  
+  #ns3:checked ~ .nsfirst{
+    margin-left: -33.3333%;
+  }
+  
+  #ns4:checked ~ .nsfirst{
+      margin-left: -49.9999%;
+    }
+    
+    #ns5:checked ~ .nsfirst{
+      margin-left: -66.66666%;
+    }
+    
+    #ns6:checked ~ .nsfirst{
+        margin-left: -83.333333%;
+      }
+
+  
+  
+  #ns-slides{
+    width: 480vw;
+    display: flex;
+  }
+  
+  #ns {
+      width: 80vw;
+      margin: 0 auto;
+      display: block;
+      overflow: hidden;
+  }
+  
+  .ns-slide{
+    width: 80vw;
+    transition: 2s;
+    font-size: 0;
+  }
+  
+  .ns-slide img{
+    height: auto;
+    width: 100%;
+    font-size: 0;
+  }
+  
+  .ns-navigation-manual{
+    position: absolute;
+    width: 80vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nsslide-holder {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2.5em;
+}
+
+
+#ren {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+#ren1:checked ~ .renfirst{
+  margin-left: 0;
+}
+
+#ren2:checked ~ .renfirst{
+  margin-left: -33.3333%;
+}
+
+#ren3:checked ~ .renfirst{
+  margin-left: -66.6666%;
+}
+
+
+#ren-slides{
+  width: 240vw;
+  display: flex;
+}
+
+
+
+.ren-slide{
+  width: 80vw;
+  transition: 2s;
+  font-size: 0;
+}
+
+.ren-slide img{
+  height: auto;
+  width: 80vw;
+  font-size: 0;
+}
+
+.ren-navigation-manual{
+  position: absolute;
+  width: 80vw;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#ren {
+  width: 80vw;
+  margin: 0 auto;
+  display: block;
+}
+
+.renslide-holder {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2.5em;
+}
+
