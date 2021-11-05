@@ -1406,16 +1406,16 @@ footer a:hover {
     }
 
     .journey {
-        width: 25em;
-        height: 18em;
+        width: 20em;
+        height: 15em;
         margin: 0 auto;
     }
     
     .journeybg {
         position: absolute;
         float: left;
-        width: 25em;
-        height: 18em;
+        width: 20em;
+        height: 15em;
         background-image: url(images/journeybg.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -1424,8 +1424,8 @@ footer a:hover {
     
     .journeydisplay {
         position: relative;
-        width: 25em;
-        height: 18em;
+        width: 20em;
+        height: 15em;
         background-size: 100%;
         background-repeat: no-repeat;
         z-index: 3;
