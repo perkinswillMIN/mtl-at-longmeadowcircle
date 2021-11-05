@@ -226,6 +226,8 @@ h1, h2, h3, h4 {
 .miro-board {
     display: block;
     margin: 0 auto;
+    width: 70vw;
+    min-height: 40vh;
 }
 
 
@@ -475,7 +477,7 @@ h1, h2, h3, h4 {
       width: 100%;
       background-color: #bde9c9;
       text-align: center;
-      font-size: 3em;
+      font-size: 5vw;
       padding-top: 1em;
       padding-bottom: 1em;
   }
@@ -681,7 +683,7 @@ h1, h2, h3, h4 {
   .project-drivers li {
       color: #285c4d;
       font-family: 'pw_centra_no2bold';
-      font-size: 2em;
+      font-size: 2vw;
       padding-bottom: 2em;
       margin: 0 auto;
   }
@@ -1385,7 +1387,7 @@ footer a:hover {
 
     .img-comp-container {
         position: relative;
-        height: 35vh;
+        height: 20vh;
         margin: 1em auto;
         top: 0;
 
@@ -1394,7 +1396,7 @@ footer a:hover {
       
       .img-comp-img img {
         display: block;
-        height: 35vh;
+        height: 20vh;
       }
 
       .sustainability-holder {
@@ -1404,16 +1406,16 @@ footer a:hover {
     }
 
     .journey {
-        width: 50em;
-        height: 70em;
+        width: 15em;
+        height: 10em;
         margin: 0 auto;
     }
     
     .journeybg {
         position: absolute;
         float: left;
-        width: 50em;
-        height: 70em;
+        width: 15em;
+        height: 10em;
         background-image: url(images/journeybg.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -1422,8 +1424,8 @@ footer a:hover {
     
     .journeydisplay {
         position: relative;
-        width: 50em;
-        height: 70em;
+        width: 15em;
+        height: 10em;
         background-size: 100%;
         background-repeat: no-repeat;
         z-index: 3;
@@ -1560,4 +1562,27 @@ footer a:hover {
         top: -16.5em;
     }
 
+
+    footer h3 {
+        font-size: .5em;
+    }
+
+    footer h4 {
+        font-size: .3em;
+    }
+
+    footer {
+        padding: 1em 3em 1em 2em;
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 5vw; 
+    }
+
+    .quote-attribute{
+        text-align: right;
+        padding: 0 7vw 3vw 2vw;
+        color: #285c4d;
+    }
 }
